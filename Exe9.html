@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="bootstrap/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.html').click(function(){
+			var p = $('.p').html();
+			$(p).toggle();
+		});
+		});
+		
+	</script>
+<em>Sample Data:</em>
+<h5 class="html">HTML:</h5>
+<p class="p" style="display: none;"><body><p></p></body></p>
+
+
+</body>
+</html>

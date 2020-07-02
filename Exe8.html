@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="bootstrap/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+  			$('#show_btn').click(function(){
+  				var text = $('#address').val();
+  				alert(text);
+  			});
+
+		});
+	</script>
+
+	<div class="container">
+	<form class="m-5">
+		<div class="form-group row">
+    		<label for="address" class="col-sm-2 col-form-label">Text Area</label>
+    	<div class="col-sm-10">
+      		<textarea class="form-control" rows="5" id="address"></textarea>
+    	</div>
+    	<button class="btn btn-info" id="show_btn">Save</button>
+  		</div>
+	</form>
+	</div>
+</body>
+</html>

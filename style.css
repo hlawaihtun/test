@@ -1,0 +1,67 @@
+#topview{
+	text-align: right;
+	margin: 5px 5px;
+}
+
+.googletext{
+	text-align: center;
+	margin-top: 10rem;
+}
+
+.g{
+	font-size: 6rem;
+	color: #096ee8;
+	
+}
+.o{
+	font-size: 6rem;
+	color: #f5480f;
+}
+
+.o2{
+	font-size: 6rem;
+	color: #e8bb17;
+}
+
+.g2{
+	font-size: 6rem;
+	color: #096ee8;
+}
+
+.l{
+	font-size: 6rem;
+	color: #489e20;
+}
+
+.e{
+	font-size: 6rem;
+	color: #f5480f;
+}
+
+#search{
+	margin-top: 1rem;
+	text-align:center;
+
+}
+
+.input{
+	padding: 1rem 15rem;
+	border-radius: 5% / 50%; 
+}
+
+#texts{
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.text1{
+	background-color: #e0e3de;
+	padding: 5px 5px;
+	margin: 5px 5px;
+}
+
+.text2{
+	background-color: #e0e3de;
+	padding: 5px 5px;
+	margin: 5px 5px;
+}
